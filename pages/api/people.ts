@@ -1,5 +1,5 @@
-import type { NextApiRequest, NextApiResponse } from "next";
 import { faker } from "@faker-js/faker";
+import type { NextApiRequest, NextApiResponse } from "next";
 
 /**
  * TODO: Prepare an endpoint to return a list of users

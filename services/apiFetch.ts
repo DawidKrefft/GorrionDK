@@ -1,5 +1,5 @@
-import { User } from "../pages/api/people";
 import { ITEMS_PER_PAGE } from "@/utils/constants";
+import { User } from "../pages/api/people";
 
 type FetchPeopleResponse = {
   people: User[];

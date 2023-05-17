@@ -9,13 +9,14 @@ export default function Home() {
     <main
       className={`flex min-h-screen flex-col place-content-center place-items-center p-24 ${inter.className}`}
     >
-      <div className="flex place-items-center">
+      <div className="flex place-items-center flex-col gap-3">
         <h1 className="text-4xl font-bold text-center">
-          Summer Camp 2023 Recruitment Task
+          Summer Camp 2023 Recruitment Task <br />
         </h1>
+        <h1 className="border-orange-400 border-b-2 text-lg">Dawid Krefft</h1>
       </div>
       <div className="flex place-items-center mt-12">
-      <Link href="/task">Go to task</Link>
+        <Link href="/task">Go to task</Link>
       </div>
     </main>
   );
